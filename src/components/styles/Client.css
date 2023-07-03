@@ -1,0 +1,74 @@
+.client-container {
+    margin: 0 auto;
+    max-width: 800px;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  
+  .client-heading {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #11324D;
+    background: linear-gradient(135deg, #30475E, #11324D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .client-subheading {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    color: #11324D;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    z-index: 1;
+  }
+  
+  .slick-prev {
+    left: 10px;
+    color: #11324D;
+  }
+  
+  .slick-next {
+    right: 10px;
+    color: #11324D;
+  }
+  .description {
+    background-color: #E3F4F4;
+    color: #11324D ;
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: center; /* Center align the description paragraph */
+    transform-style: preserve-3d; /* Apply 3D effect to the description */
+  }
+  .slick-slide img {
+    height: 400px; 
+    width: auto;
+    margin: 0 auto;
+  }
+  
+  .slick-slide {
+    perspective: 1000px; /* Apply 3D perspective */
+  }
+  
+  .slick-slide img {
+    height: 400px; 
+    width: auto;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+    transform-style: preserve-3d; /* Preserve 3D transformations */
+    transform: translateZ(0); /* Enable hardware acceleration for smoother transitions */
+  }
+  
